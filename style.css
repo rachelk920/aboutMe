@@ -1,8 +1,10 @@
 body {
     color: white;
-    background-image: url(https://ctl.s6img.com/society6/img/Mj_cOsqLYAug_tliyXoUjtgyYiw/w_700/duvet-covers/swatch/~artwork,fw_6000,fh_6000,iw_6000,ih_6000/s6-original-art-uploads/society6/uploads/misc/8dafd61b03c349d38485c7ce1aa1ba88/~~/modern-bright-summer-turquoise-pink-watercolor-ombre-hand-painted-background-duvet-covers.jpg);
+    background: url(https://ctl.s6img.com/society6/img/Mj_cOsqLYAug_tliyXoUjtgyYiw/w_700/duvet-covers/swatch/~artwork,fw_6000,fh_6000,iw_6000,ih_6000/s6-original-art-uploads/society6/uploads/misc/8dafd61b03c349d38485c7ce1aa1ba88/~~/modern-bright-summer-turquoise-pink-watercolor-ombre-hand-painted-background-duvet-covers.jpg) center center fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
+    height: fit-content;
 }
 h2 {
     font-size: 20px;
