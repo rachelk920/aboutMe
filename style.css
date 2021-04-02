@@ -40,7 +40,10 @@ a:hover {
     #headshot {
         max-width: 250px;
     }
-    body {
-        flex-wrap: wrap;
+    h1 {
+        font-size: 25px;
     }
+    .caption {
+        font-size: 10px;
     }
+}
