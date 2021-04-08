@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: fit-content;
+    text-align: center;
 }
 h2 {
     font-size: 20px;
@@ -15,6 +16,9 @@ h1 {
     color: white;
     margin-bottom: -5px;
     margin-top: 10px;
+}
+ul {
+    list-style-type: none;
 }
 a {
     color: #9203ff;
@@ -36,7 +40,7 @@ a:hover {
     font-style: italic;
 }
 #headshot {
-    position: relative;
+    position: center;
     width: 50%;
     left: 50px;
     size: auto;
@@ -49,6 +53,12 @@ a:hover {
 {
     margin-top: -30px;
     margin-bottom: -25px;
+}
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 40px;
+    }
 }
 @media (max-width: 390px) {
     #headshot {
@@ -68,4 +78,5 @@ a:hover {
     #headshot {
         max-width: 350px;
     }
+
 }
